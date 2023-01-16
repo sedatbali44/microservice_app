@@ -1,6 +1,6 @@
 
 
- create / update / delete operation on a "Person" entity will result in the creation of a CloudEvent 1.0 compliant message in Kafka. There are 3 topics that will 
+ create / update / delete operation on a "Person" and "Customer" entity will result in the creation of a CloudEvent 1.0 compliant message in Kafka. There are 3 topics that will 
 
 * personevents-created
 * personevents-changed
